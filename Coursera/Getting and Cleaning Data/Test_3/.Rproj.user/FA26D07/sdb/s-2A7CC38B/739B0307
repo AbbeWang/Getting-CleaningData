@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1442994826498.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "739B0307",
+    "lastKnownWriteTime" : 9007628758679649,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "sxqfj6ttdu",
+        "caption" : "solutions",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=solutions&cache_key=sxqfj6ttdu",
+        "displayedObservations" : 205,
+        "environment" : "",
+        "object" : "solutions",
+        "totalObservations" : 205,
+        "variables" : 7
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

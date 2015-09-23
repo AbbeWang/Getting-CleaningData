@@ -1,0 +1,18 @@
+{
+    "contents" : "if(!file.exists(\"./data\")){\n  dir.create(\"./data\")\n}\n\nfileUrl1 = \"https://dl.dropboxusercontent.com/u/7710864/data/reviews-apr29.csv\"\nfileUrl2 = \"https://dl.dropboxusercontent.com/u/7710864/data/solutions-apr29.csv\"\n\ndownload.file(fileUrl1, destfile = \"./data/reviews.csv\")\ndownload.file(fileUrl2, destfile = \"./data/solutions.csv\")\n\nreviews = read.csv(\"./data/reviews.csv\")\nsolutions = read.csv(\"./data/solutions.csv\")\n\nnames(reviews); names(solutions)\n\n\n#merging data\nmergedData = merge(reviews, solutions, by.x = \"solution_id\", by.y = \"id\", all = TRUE)\nhead(mergedData)\n\n\n#default-merge all common column names\nintersect(names(solutions), names(reviews))\nmergedData2 = merge(reviews, solutions, all=TRUE)\nhead(mergedData2)\n\n\n#Using join in the plyr package\nlibrary(plyr)\ndf1 = data.frame(id=sample(1:10), x=rnorm(10))\ndf2 = data.frame(id=sample(1:10), y=rnorm(10))\narrange(join(df1, df2), id)\n\n\n#Multiple data frames\ndf1 = data.frame(id=sample(1:10), x=rnorm(10))\ndf2 = data.frame(id=sample(1:10), y=rnorm(10))\ndf3 = data.frame(id=sample(1:10), z=rnorm(10))\n\ndfList = list(df1,df2,df3)\njoin_all(dfList)\n",
+    "created" : 1442994588840.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3151263658",
+    "id" : "73B581EF",
+    "lastKnownWriteTime" : 1442995497,
+    "path" : "G:/Coursera/Getting and Cleaning Data/Test_3/merging-data.R",
+    "project_path" : "merging-data.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
