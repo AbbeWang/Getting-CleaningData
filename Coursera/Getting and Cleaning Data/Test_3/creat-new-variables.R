@@ -53,4 +53,4 @@ as.numeric(yesnofac)
 library(Hmisc);library(plyr)
 restData2 = mutate(restData, zipGroups = cut2(zipCode, g=4))
 table(restData2$zipGroups)
-
+ 
