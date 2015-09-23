@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1442984735962.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F954DD88",
+    "lastKnownWriteTime" : 1442984713,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "i2ctnvhqfn",
+        "caption" : "restData",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=restData&cache_key=i2ctnvhqfn",
+        "displayedObservations" : 1327,
+        "environment" : "",
+        "object" : "restData",
+        "totalObservations" : 1327,
+        "variables" : 7
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

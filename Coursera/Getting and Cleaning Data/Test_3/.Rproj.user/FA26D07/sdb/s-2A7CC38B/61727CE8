@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1442986522896.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "61727CE8",
+    "lastKnownWriteTime" : 4920536773909684339,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ad323w4b8v",
+        "caption" : "restData2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=restData2&cache_key=ad323w4b8v",
+        "displayedObservations" : 1327,
+        "environment" : "",
+        "object" : "restData2",
+        "totalObservations" : 1327,
+        "variables" : 11
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

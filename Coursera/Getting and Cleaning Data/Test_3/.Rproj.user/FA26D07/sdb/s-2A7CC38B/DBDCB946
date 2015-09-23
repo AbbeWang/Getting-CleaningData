@@ -1,0 +1,18 @@
+{
+    "contents" : "#Using Baltimore Restaurant data\n\nif(!file.exists(\"./data\")){\n  dir.create(\"./data\")\n}\n\nfileUrl <- \"https://data.baltimorecity.gov/api/views/k5ry-ef3g/rows.csv?accessType=DOWNLOAD\"\ndownload.file(fileUrl, destfile = \"./data/restaurant.csv\")\nrestData <- read.csv(\"./data/restaurant.csv\")\n\n\n#Sequences\ns1 <- seq(1,10,by=2);s1\ns2 <- seq(1,10,length=3);s2\nx <- c(1,3,8,25,100); seq(along = x)\n\n\n#Subsetting variables\nrestData$nearMe = restData$neighborhood %in% c(\"Roland Park\", \"Homeland\")\ntable(restData$nearMe)\n\n\n#Creating binary variables\nrestData$zipWrong = ifelse(restData$zipCode<0, TRUE, FALSE)\ntable(restData$zipWrong, restData$zipCode<0)\n\n\n#Creating categorical variables\nrestData$zipGroups = cut(restData$zipCode, breaks = quantile(restData$zipCode))\ntable(restData$zipGroups)\ntable(restData$zipGroups, restData$zipCode)\n\n\n#easier cutting\nlibrary(Hmisc)\nrestData$zipGroups = cut2(restData$zipCode, g=4)\ntable(restData$zipGroups)\n\n\n#Creating factor variables\nrestData$zcf <- factor(restData$zipCode)\nrestData$zcf[1:10]\nclass(restData$zcf)\n\n\n#levels of factor variables\nyesno <- sample(c(\"yes\",\"no\"),size=10,replace=TRUE)\nyesnofac = factor(yesno, levels = c(\"yes\",\"no\"))\nrelevel(yesnofac, ref=\"yes\")\nas.numeric(yesnofac)\n\n#Using the mutate function\nlibrary(Hmisc);library(plyr)\nrestData2 = mutate(restData, zipGroups = cut2(zipCode, g=4))\ntable(restData2$zipGroups)\n\n",
+    "created" : 1442984305650.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3523129437",
+    "id" : "DBDCB946",
+    "lastKnownWriteTime" : 1442986505,
+    "path" : "G:/Coursera/Getting and Cleaning Data/Test_3/creat-new-variables.R",
+    "project_path" : "creat-new-variables.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

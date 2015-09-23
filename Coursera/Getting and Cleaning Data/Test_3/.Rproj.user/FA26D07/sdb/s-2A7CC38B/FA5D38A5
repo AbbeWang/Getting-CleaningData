@@ -1,0 +1,18 @@
+{
+    "contents" : "#Learning Baltimore Restaurant data\n\nif(!file.exists(\"./data\")){\n  dir.create(\"./data\")\n}\n\nfileUrl <- \"https://data.baltimorecity.gov/api/views/k5ry-ef3g/rows.csv?accessType=DOWNLOAD\"\ndownload.file(fileUrl, destfile = \"./data/restaurant.csv\")\nrestData <- read.csv(\"./data/restaurant.csv\")\n\n\n#UCBAdata association\ndata(\"UCBAdmissions\")\nDF = as.data.frame(UCBAdmissions)\nsummary(DF)\n\nxt <- xtabs\nxt <- xtabs(Freq~Gender+Admit,data=DF)\n\n\n#more variables\nwarpbreaks$replicate <- rep(1:9, len=54)\nxt = xtabs(breaks~.,data=warpbreaks)\nftable(xt)\n\n\n#printout variable size\nfakeData = rnorm(1e5)\nobject.size(fakeData)\nprint(object.size(fakeData),units = \"Mb\")",
+    "created" : 1442982345619.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2767942989",
+    "id" : "FA5D38A5",
+    "lastKnownWriteTime" : 1442984236,
+    "path" : "G:/Coursera/Getting and Cleaning Data/Test_3/baltimore_restaurant.R",
+    "project_path" : "baltimore_restaurant.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
