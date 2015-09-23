@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1441685843187.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "865B2D60",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "mxbxwrsf3s",
+        "caption" : "cameraData",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cameraData&cache_key=mxbxwrsf3s",
+        "displayedObservations" : 80,
+        "environment" : "",
+        "object" : "cameraData",
+        "totalObservations" : 80,
+        "variables" : 6
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

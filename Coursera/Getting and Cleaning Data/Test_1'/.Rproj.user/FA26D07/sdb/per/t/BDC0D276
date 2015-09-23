@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1441691396440.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BDC0D276",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "dxs9ncrctp",
+        "caption" : "surveyData",
+        "contentUrl" : "grid_resource/gridviewer.html?env=_rs_no_env&obj=surveyData&cache_key=dxs9ncrctp",
+        "displayedObservations" : 6496,
+        "environment" : "_rs_no_env",
+        "object" : "surveyData",
+        "totalObservations" : 6496,
+        "variables" : 188
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

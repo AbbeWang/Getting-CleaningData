@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433866010149.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5DEB8AAF",
+    "lastKnownWriteTime" : 2037672302,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "community",
+        "contentUrl" : "content?title=community&file=85220cc0fb4a4bca9211ae7dd62310b7.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 100,
+        "totalObservations" : 6496,
+        "variables" : 188
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

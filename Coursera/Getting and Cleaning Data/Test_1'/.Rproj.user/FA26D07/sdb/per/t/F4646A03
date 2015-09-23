@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1441694522389.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F4646A03",
+    "lastKnownWriteTime" : 1,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ie32ijpqfa",
+        "caption" : "dat1",
+        "contentUrl" : "grid_resource/gridviewer.html?env=_rs_no_env&obj=dat1&cache_key=ie32ijpqfa",
+        "displayedObservations" : 6,
+        "environment" : "_rs_no_env",
+        "object" : "dat1",
+        "totalObservations" : 6,
+        "variables" : 9
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

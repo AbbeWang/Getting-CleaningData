@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1434368362348.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "71563B5D",
+    "lastKnownWriteTime" : 1867263841,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "q5",
+        "contentUrl" : "content?title=q5&file=55e9de4f6e1e47c0897af6acedd3fae5.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 9,
+        "totalObservations" : "1254",
+        "variables" : "9"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1434364576433.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "79DF27DD",
+    "lastKnownWriteTime" : 1030057065,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "q3b",
+        "contentUrl" : "content?title=q3b&file=fef1d7c5240249cca9d00845b6e3ca00.htm",
+        "displayedObservations" : 91,
+        "displayedVariables" : 1,
+        "totalObservations" : 91,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

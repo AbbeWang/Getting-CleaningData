@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1442689100340.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "663EAB69",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1cpm93tans",
+        "caption" : "acs",
+        "contentUrl" : "grid_resource/gridviewer.html?env=_rs_no_env&obj=acs&cache_key=1cpm93tans",
+        "displayedObservations" : 14931,
+        "environment" : "_rs_no_env",
+        "object" : "acs",
+        "totalObservations" : 14931,
+        "variables" : 239
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,9 @@
+{
+    "path" : "D:/Coursera/Getting and Cleaning Data/test_1/data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

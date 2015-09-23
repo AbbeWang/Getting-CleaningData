@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1441692354057.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2220506",
+    "lastKnownWriteTime" : 2483862104204800865,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "wyphvbo4eq",
+        "caption" : "gasData",
+        "contentUrl" : "grid_resource/gridviewer.html?env=_rs_no_env&obj=gasData&cache_key=wyphvbo4eq",
+        "displayedObservations" : 94,
+        "environment" : "_rs_no_env",
+        "object" : "gasData",
+        "totalObservations" : 94,
+        "variables" : 26
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
