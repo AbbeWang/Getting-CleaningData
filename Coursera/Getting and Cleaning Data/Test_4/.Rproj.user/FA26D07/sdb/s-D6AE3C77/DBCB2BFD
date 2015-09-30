@@ -1,0 +1,18 @@
+{
+    "contents" : "#Question 1\nurl = \"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv\"\ndownload.file(url, destfile = \"./data/housing.csv\")\nhouse <- read.csv(\"./data/housing.csv\")\n\nsplitNames = strsplit(names(house), \"wgtp\")\nsplitNames[123]\n\n\n#Question 2\nurl = \"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FGDP.csv\"\ndownload.file(url,destfile = \"./data/product.csv\")\nproduct <- read.csv(\"./data/product.csv\")\n\nproduct = product[5:194,]\nclass(product$X.3)\nproduct$X.3 = as.character(product$X.3)\nclass(product$X.3)\n\nproduct$X.3 = gsub(\",\",\"\",product$X.3)\nmean(as.numeric(product$X.3))\n\n\n#Question 3\nlibrary(dplyr)\nproduct=rename(product, countryNames = X.2)\ngrep(\"^United\", product$countryNames)\n\n\n#Question 4\nurl1 = \"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FGDP.csv\"\ndownload.file(url1,destfile = \"./data/product.csv\")\nproduct <- read.csv(\"./data/product.csv\")\n\nurl2 = \"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FEDSTATS_Country.csv\"\ndownload.file(url2, destfile = \"./data/edu.csv\")\nedu <- read.csv(\"./data/edu.csv\")\n\na = grep(\"[Ff]iscal year end(.*)[Jj]une\", edu$Special.Notes, value = TRUE)\na\n\n\n#Question 5\nlibrary(quantmod)\namzn = getSymbols(\"AMZN\",auto.assign=FALSE)\nsampleTimes = index(amzn)\ntable(year(sampleTimes))\n\nsample2012 = sampleTimes[year(sampleTimes) == 2012]\ntable(weekdays(sample2012))\n\n\n",
+    "created" : 1443574383028.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "392069877",
+    "id" : "DBCB2BFD",
+    "lastKnownWriteTime" : 1443577012,
+    "path" : "G:/Coursera/Getting and Cleaning Data/Test_4/quiz4.R",
+    "project_path" : "quiz4.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

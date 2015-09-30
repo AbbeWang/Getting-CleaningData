@@ -1,0 +1,17 @@
+{
+    "contents" : "d1 = date()\nd1\nclass(d1)\n\nd2 = Sys.Date()\nd2\nclass(d2)\n\n#formatting dates\nformat(d2, \"%a %b %d\")\n\n#creating dates\nx = c(\"1jan1960\", \"2jan1960\", \"31mar1960\", \"30jul1960\")\nz = as.Date(x, \"%d%b%Y\")\nz\n\nz[1] - z[2]\nas.numeric(z[1]-z[2])\n\n#Converting to Julian\nweekdays(d2)\nmonths(d2)\njulian(d2)\n\n\n#lubridate\nlibrary(lubridate)\nymd(\"20141016\")\nmdy(\"08/04/2013\")\ndmy(\"03-04-2013\")\n\n#dealing with times\nymd_hms(\"2013-08-03 10:15:03\")\nymd_hms(\"2013-08-03 10:15:03\", tz=\"Pacific/Auckland\")\n?Sys.timezone\n\n#different syntax\nx = dmy(\"1jan1960\", \"2jan1960\", \"31mar1960\", \"30jul1960\")\nwday(x[1])\nwday(x[1],label = TRUE)\n\n",
+    "created" : 1443572569055.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1373448990",
+    "id" : "1A79F407",
+    "lastKnownWriteTime" : 1443573749,
+    "path" : "G:/Coursera/Getting and Cleaning Data/Test_4/Dates.R",
+    "project_path" : "Dates.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
